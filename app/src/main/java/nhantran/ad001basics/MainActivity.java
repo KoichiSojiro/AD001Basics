@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /** Called when the user clicks the Send button */
-    public final static String EXTRA_MESSAGE = "com.example.training_001_basics.MESSAGE";
+    public final static String EXTRA_MESSAGE = "com.example.ad001basics.MESSAGE";
     public void sendMessage(View view) {
         Intent myIntent = new Intent(this, DisplayMessageActivity.class);
         EditText myEditText = (EditText)findViewById(R.id.edit_message);
