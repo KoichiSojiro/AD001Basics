@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Training_001_Basics</string>
+    <string name="edit_message">Điền nội dung</string>
+    <string name="button_send">Gửi</string>
+</resources>
