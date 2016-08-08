@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="nhantran.ad001basics">
-
+    <!--specify minimum SDK and target SDK-->
+    <!--<uses-sdk android:minSdkVersion="20" android:targetSdkVersion="24" />-->
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -14,7 +15,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".DisplayMessageActivity"></activity>
+        <activity android:name=".DisplayMessageActivity">
+            <intent-filter>
+                <action android:name="com.nhantran.ad001basics.DisplayMessage" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

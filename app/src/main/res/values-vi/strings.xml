@@ -3,4 +3,6 @@
     <string name="app_name">Training_001_Basics</string>
     <string name="edit_message">Điền nội dung</string>
     <string name="button_send">Gửi</string>
+    <string name="api_success">Không đạt API đầu cuối</string>
+    <string name="api_fail">Đạt API đầu cuối</string>
 </resources>
